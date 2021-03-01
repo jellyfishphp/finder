@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Jellyfish\Finder;
 
-interface FinderFactoryInterface
+interface FinderFacadeInterface
 {
     /**
      * @return \Jellyfish\Finder\FinderInterface
      */
-    public function create(): FinderInterface;
+    public function createFinder(): FinderInterface;
 }
